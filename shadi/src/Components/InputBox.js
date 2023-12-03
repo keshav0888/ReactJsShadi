@@ -1,7 +1,8 @@
 import React from 'react'
 
-export const InputBox = (type) => {
+export const InputBox = (props) => {
   return (
-    <input type={type} className='InputBox'></input>
+    <input type={props.type} className='InputBox' name={props.name} onChange={props.onChange}
+    ></input>
   )
 }
