@@ -55,19 +55,19 @@ body {
 
 .RegisterForm-Div {
   display: flex;
+  flex-direction: column; /* Change to column to stack items vertically */
   box-shadow: 0px 1px 5px #00000033;
-  padding: 5rem 2rem; /* Adjust top and bottom padding */
+  padding: 5rem 2rem;
   background-color: aquamarine;
   box-sizing: border-box;
   width: 80%;
   align-items: center;
   justify-content: center;
-  
+  margin: auto; /* Add this line to center the div horizontally */
 }
 .RegisterForm-Div label {
   margin-bottom: 0.5rem;
 }
-
 .InputBox{
   padding: 0.3rem;
   margin-bottom: 1rem;
@@ -96,4 +96,22 @@ body {
   border-radius: 20px;
   border-color: white;
   cursor:pointer;
+}
+.gridClass{
+  display:'flex';
+  align-items:'center';
+  justify-content:'center'
+}
+.SubmitBtn{
+   width:15rem;
+   height: 1.5rem;
+   background-color: green;
+   color: white;
+   border-radius: 10px;
+   border-color: white;
+   border-width: 1px;
+   cursor: pointer;
+}
+.logo{
+  height: 2rem;
 }
